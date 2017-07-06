@@ -13,7 +13,7 @@
 	        	    </classpath>
 	        	<formatter type="plain" usefile="false"/>
 	            <batchtest haltonfailure="true">
-	                <fileset dir="bin" includes="TestClass.class" />
+	                <fileset dir="src" includes="TestClass.java" />
 	            </batchtest>
 	        </junit>
 		<echo>Test OK</echo>
