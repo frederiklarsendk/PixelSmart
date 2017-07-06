@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Hello World" default="test3" basedir="."> 
+<project name="Hello World" default="test" basedir="."> 
   <property name="HelloText" value="Hello"/>
-  <target name="test">
+  <target name="testinit">
     <echo>${HelloText}!</echo>
   </target>
-	<target name="test3" depends="test">
+	<target name="test" depends="testinit">
 	        <junit>
 	        	 <classpath>
 	        	 	<pathelement location="hamcrest-core-1.3.jar"/>
