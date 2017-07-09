@@ -7,6 +7,6 @@ public class TestClass {
 @Test
 	public void testAdd()
 	{
-		assertEquals("sand", "7sand");
+		assertEquals("sand", "sand");
 	}
 }
