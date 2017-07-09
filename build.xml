@@ -5,6 +5,8 @@
     <echo>${HelloText}!</echo>
   </target>
 	 <target name="compile">
+				<pathelement location="hamcrest-core-1.3.jar"/>
+	        	      <pathelement location="junit-4.12.jar"/>
 	        <mkdir dir="build/classes"/>
 	        <javac srcdir="src" destdir="build/classes"/>
 	    </target>
